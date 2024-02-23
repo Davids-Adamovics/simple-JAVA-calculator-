@@ -1,7 +1,38 @@
-.button {
-    display:block;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: 1px solid red;
-  }
+/* 90% no pogām izmato šo css kodu */
+.buttonGrey {
+  -fx-font: 20px "Serif";
+  -fx-padding: 10;
+  -fx-background-color: #b2b2b2;
+  -fx-background-radius: 50px;
+  -fx-text-fill: #ffffff;
+}
+
+.buttonGrey:hover {
+  -fx-background-color: #282828; 
+}
+
+.buttonOrange {
+  -fx-font: 20px "Serif";
+  -fx-padding: 10;
+  -fx-background-radius: 50px;
+  -fx-background-color: #EA8900;
+  -fx-text-fill: #ffffff;
+}
+
+.buttonOrange:hover {
+  -fx-background-color: #955804; 
+}
+
+
+.buttonDark {
+  -fx-font: 20px "Serif";
+  -fx-padding: 10;
+  -fx-background-radius: 50px;
+  -fx-background-color: #333333;
+  -fx-text-fill: #ffffff;
+}
+
+.buttonDark:hover {
+  -fx-background-color: #212121; 
+}
+
